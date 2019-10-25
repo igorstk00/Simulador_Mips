@@ -32,6 +32,8 @@ public class Simulador_Mips extends Application {
      */
     public static void main(String[] args) {
         launch(args);
+        MemoriaInstrucao mi = new MemoriaInstrucao("Teste.mips");
+        mi.print();
     }
     
 }
